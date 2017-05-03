@@ -1,0 +1,32 @@
+<div class="workflow2_block">
+    正在载入中...
+</div>
+<script id="workflow2-template" type="text/x-handlebars-template">
+{{#with question}}
+    <div class="hr"></div>
+    <p class="questionText">[{{TypeText type}}]</p>
+    <div>{{Markdown question}}</div>
+    {{#if options}}
+        {{#each options}}
+        <label class="option">
+            {{CheckLabel ../type ../q_number this}}
+        </label>
+        {{/each}}
+    {{else}}
+        <textarea class="text-input"></textarea>
+    {{/if}}
+{{/with}}
+{{#if answer}}
+    <p class="answer">你的答案: {{Lastest answer}} <span class="grade-info">{{GradeInfo graded gradeInfo}}</span><p>
+    {{#if comment}}
+        <p class="answer">评语: {{comment}}</p>
+    {{/if}}
+    <div class="action">
+        {{SubmitAction student tried maxTry true graded}}
+    </div>
+{{else}}
+    <div class="action">
+        {{SubmitAction student tried maxTry false false}}
+    </div>
+{{/if}}
+</script>

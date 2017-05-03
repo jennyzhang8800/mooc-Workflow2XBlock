@@ -1,0 +1,137 @@
+/* CSS for Workflow2XBlock */
+
+.workflow2_block {
+    padding: 16px;
+    margin-top: 100px;
+}
+
+div.workflow2_block .questionText {
+    font-size: 0.8rem;
+}
+
+div.workflow2_block .questionText span {
+    font-size: 0.8rem;
+}
+
+div.workflow2_block .hr {
+    content: ' ';
+    width: 100%;
+    height: 3px;
+    background-color: #337AB7;
+    margin-bottom: 10px;
+}
+
+div.workflow2_block label.option {
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    display: inline-block;
+    clear: both;
+    margin-bottom: 10px;
+    border: 2px solid #e5e5e5;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+}
+
+div.workflow2_block label.option:hover {
+    border: 2px solid #009fe6;
+}
+
+div.workflow2_block .text-opt {
+    width: 10%;
+    margin-right: 10px;
+}
+
+div.workflow2_block .option .text-input {
+    height: 1.8rem;
+    width: 90%;
+}
+
+div.workflow2_block pre {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+}
+
+div.workflow2_block .text-input {
+    border: 2px solid #e5e5e5;
+    border-radius: 3px;
+    width: 100%;
+    color: #4c4c4c;
+    outline: 0;
+    background-color: #f2f2f2;
+    font-size: 1rem;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.workflow2_block .check-input {
+    margin-right: 4px;
+}
+
+div.workflow2_block .btn {
+    margin-right: 10px;
+    padding: 6px 12px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    background-image: none;
+    box-shadow: none;
+}
+
+div.workflow2_block .check-info {
+    margin-left: 10px;
+    display: inline-block;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+div.workflow2_block .check-info span {
+    color: #0448F5;
+}
+
+div.workflow2_block .answer {
+    padding: 16px;
+    overflow: auto;
+    font-size: .75rem;
+    line-height: 1.2;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+div.workflow2_block .btn-submit {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+div.workflow2_block .btn-submit:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+div.workflow2_block .btn-submiting {
+    color: #fff;
+    background-color: #799CBB;
+    border-color: #799CBB;
+}
+
+div.workflow2_block .btn-submited {
+    color: #fff;
+    background-color: #799CBB;
+    border-color: #799CBB;
+}
+
+div.workflow2_block .grade-info {
+    float: right
+}
